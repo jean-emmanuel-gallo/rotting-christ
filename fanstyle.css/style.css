@@ -1,0 +1,144 @@
+body {
+    background-color: black;
+}
+
+.img-fluid {
+    max-height: 56px;
+}
+
+.rcjumbo {
+    max-width: 100%;
+    height: auto;
+    margin-top: 90px;
+}
+
+
+
+.jumbotron {
+    background-color: black;
+}
+
+.title {
+    position:absolute;
+    top : 870px;
+    left: 500px;
+    color: red;
+}
+
+.backgr1 {
+    height: 550px;
+    background-image: url('https://rockmetalmag.fr/wp-content/uploads/2021/09/Rotting-pochette.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.indexnews {
+    height: 500px;
+    text-align: center;
+    color: red;
+    background-color: black;
+}
+
+.presentation  {
+    font-size: large;
+}
+.backgr2 {
+    height: 550px;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/11/904/905/movie-the-passion-of-the-christ-wallpaper-thumb.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.actu {
+    margin-top: 100px;
+}
+
+.container {
+    border: 3px solid rgb(255, 255, 255);
+    
+    padding: 20px 40px 40px;
+    max-width: 600px;
+}
+    
+.container__image {
+    width: 250px;
+    margin: 30px 30px 30px 0;
+    float: left;
+}
+
+.container__text {
+    display: inline;
+    color: white;
+}
+
+.articles {
+    background-color: black;
+}
+
+.fb {
+    max-height: 25px;
+    max-width: 25px;
+}
+
+.yb {
+    max-height: 25px;
+    max-width: 35px;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 18 0px;
+    max-width: 100%;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+
+  .rcjumbo2 {
+    width: 100%;
+    height: auto;
+    margin-top: 90px;
+}
+
+.vids {
+    align-items: center;
+    height: auto;
+    width: 200px;
+}
